@@ -1,0 +1,372 @@
+
+.cont{
+    padding: 0 50px;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --gray-color:rgba(255, 241, 241, 0.4);
+    --red-color:rgba(222, 16, 16, 1);
+    --font-family:  "Poppins", sans-serif;
+ 
+}
+
+span{
+    width: 20px;
+    height: 20px;
+}
+.navbar-brand img {
+  max-height: 40px; 
+  height: auto;
+}
+
+.slect{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 30px;
+}
+.nav p:hover{
+    color:var(--red-color);
+}
+.nav i:hover{
+    color:var(--red-color);
+}
+.sec01 .sec1 p{
+    width: 25px;
+
+    
+}
+.hover:hover{
+    color: var(--red-color);
+    
+}
+.sec02 p:hover{
+     color: var(--red-color);
+     
+}
+.dropdown .nav-link:hover {
+  color: red !important;
+}
+.sec1:hover p {
+  border-color: red !important;}
+body {
+  overflow-x: hidden;
+}
+.carousel-inner img {
+width: 100%;
+
+  height: 540px;
+  object-fit: contain;   
+}
+
+
+.ground1{
+    background-color: #84A7A9;
+}
+.ground2{
+    background-color:#CBA787;
+}
+h3{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800px;
+}
+.contant p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+
+h3{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800px;
+}
+.contant p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500px;
+}
+.bt{
+    width: 10px!important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+h3{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800px;
+}
+.contant p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.carousel-indicators .bt {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+ 
+}
+.inner{
+     background-image: url(../images/banner1-demo1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 270px;
+
+}
+.inner button:hover{
+    background-color: black !important;
+    color: white;
+}
+.outer button:hover{
+    background-color: black !important;
+    color: white;
+}
+.contant button:hover{
+    background-color: transparent !important;
+    color: black;
+}
+.outer{
+     background-image: url(../images/banner2-demo1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 270px;
+
+}
+.change:hover p{
+color: black !important;
+}
+.change:hover .icon{
+color: black !important;
+}
+.item:hover p{
+    color: red;
+}
+.item:hover img {
+  filter: brightness(50%); 
+  transition: 0.3s;
+}
+.timer .time{
+    width: 30px;
+    height: 30px;
+}
+.cards img{
+    width: 100%;
+}
+.percent p{
+    width: 30px;
+    height: 30px;
+}
+.percent{
+    top: 15px;
+    left: 15px;
+}
+.hov-icons{
+    top: 20px;
+    right: 1px;
+    display: none;
+}
+.hov-icons:hover i{
+    background-color: black !important;
+    color: white;
+    border-color: black !important;
+}
+.cards:hover .hov-icons{
+display: block;
+}
+.cards:hover .f-p{
+    color: red;
+}
+
+.slick-prev, .slick-next {
+  background:gray;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.slick-prev {
+  left: -40px;
+}
+.slick-next {
+  right: -40px;
+}
+.slick-prev,
+.slick-next {
+  opacity: 1 !important;  
+  visibility: visible !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  opacity: 1 !important;  
+  color: white; 
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background: #333;
+}
+
+.image01 img{
+    width: 337px;
+    height: 337px;
+}
+.image02 img{
+    width: 674px;
+    height: 337px;
+}
+.img {
+  overflow: hidden; 
+}
+
+.img img {
+  transition: transform 0.4s ease; 
+}
+
+.img:hover img {
+  transform: scale(1.2); 
+}
+.pargraph{
+    bottom: 20px;
+    left: 30px;
+    text-align: center;
+    
+}
+.pargraph h2{
+        font-family: var(--font-family);
+   
+}
+.sec2-pargraph {
+  top: 30px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+.sec2-pargraph p{
+    color: #D26F25;
+}
+.sec3-pargraph{
+    bottom: 20px;
+     left: 50px; 
+  
+}
+.picture img{
+    width:202px ;
+    height: 202px;
+}
+.last .icon{
+    width: 30px;
+    height: 30px;
+}
+.first:hover .last{
+    display: flex !important;
+}
+
+.first p:hover{
+    color: red;
+}
+.hot {
+    width: 40px;
+    height: 30px;
+    top: 3px;
+    left: 3px;
+   
+}
+.small-img img{
+    width: 40px;
+    height: 40px;
+}
+.image p{
+    width: 70px;
+    height: 70px;
+    top: 110px;
+    left: 510px;
+}
+.carousel-control-prev {
+  left: -50px; 
+  
+}
+
+.carousel-control-next {
+  right: -90px; 
+}
+.div1 i{
+    color: #25B14C;
+}
+.people{
+    background-color: #EBEEF0;
+}
+.soon{
+    background-color: #EBEEF0;
+}
+.cards .image img{
+    width: 237px;
+    height: 237px;
+}
+.tip img{
+    width: 436;
+    height:309 ;
+}
+.tip button:hover{
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+}
+.p1:hover{
+    color: red;
+}
+.tip h4:hover{
+    color: red;
+}
+.your-class .slick-slide {
+  padding: 0 15px; 
+  box-sizing: border-box;
+}
+.tip-img {
+  transition: transform 0.4s ease;
+  overflow: hidden;      
+}
+
+.tip-img img {
+  transition: transform 0.4s ease; 
+}
+
+.tip-img img:hover {
+  transform: scale(1.2);
+}
+
+.input-icon{
+    width: 50px;
+    height: 50px;
+    right: 190px;
+    top: 5px;
+}
+.soon p:hover{
+    color: red;
+}
+.final{
+    background-color: #1B1F22;
+}
+.final-logo img{
+    width:126px;
+    height:40px ;
+}
+.final {
+  min-height: 80vh;
+}
+.final p:hover{
+    color: red;
+}
+.final h4:hover{
+    color: red;
+}
