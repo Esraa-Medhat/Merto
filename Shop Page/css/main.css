@@ -1,0 +1,200 @@
+
+.cont{
+    padding: 0 50px;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --gray-color:rgba(255, 241, 241, 0.4);
+    --red-color:rgba(222, 16, 16, 1);
+    --font-family:  "Poppins", sans-serif;
+ 
+}
+
+span{
+    width: 20px;
+    height: 20px;
+}
+.navbar-brand img {
+  max-height: 40px; 
+  height: auto;
+}
+
+.slect{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 30px;
+}
+.nav p:hover{
+    color:var(--red-color);
+}
+.nav i:hover{
+    color:var(--red-color);
+}
+.sec01 .sec1 p{
+    width: 25px;
+
+    
+}
+.hover:hover{
+    color: var(--red-color);
+    
+}
+.sec02 p:hover{
+     color: var(--red-color);
+     
+}
+.dropdown .nav-link:hover {
+  color: red !important;
+}
+.sec1:hover p {
+  border-color: red !important;}
+body {
+  overflow-x: hidden;
+}
+.shop button{
+    background-color: gainsboro;
+    border-color: gainsboro;
+}
+.shop button:hover{
+    background-color: white !important;
+    border-color: black !important;
+}
+.show-icon{
+    width: 20px;
+    height: 20px;
+}
+.show-icon:hover .icoon{
+display: block !important;
+
+}
+.black .p-black{
+    width: 20px;
+    height: 20px;
+}
+.pink{
+    background-color: pink;
+    border-color: pink;
+}
+.purble{
+    background-color: purple;
+    border-color: purple;
+}
+.gray{
+    background-color: gray;
+    border-color: gray;
+}
+.green{
+    background-color: green;
+    border-color: green;
+}
+.light-Brown{
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+.navy{
+    background-color: navy;
+    border-color: navy;
+}
+.orange{
+    background-color: orange;
+    border-color: orange;
+}
+.purbley{
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+.pinky{
+    background-color: plum;
+    border-color: plum;}
+
+.rose{
+    background-color: rosybrown;
+    border-color: rosybrown;
+}
+.colors p:hover{
+    color: red !important;
+}
+.parent {
+  max-height: 280px; 
+  overflow-y: auto;  
+  padding-right: 5px; 
+}
+.parent::-webkit-scrollbar {
+  width: 5px;
+}
+
+.parent::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.parent::-webkit-scrollbar-thumb:hover {
+  background-color:black;
+}
+.button .btn01{
+    background-color: transparent !important;
+}
+.button .btn02:hover{
+    background-color: red !important;
+    border-color: red !important;
+}
+.image img{
+width: 239px;
+height: 239px;
+}
+
+.cards img{
+    width: 100%;
+}
+.percent p{
+    width: 30px;
+    height: 30px;
+}
+.percent{
+    top: 15px;
+    left: 15px;
+}
+.hov-icons{
+    top: 20px;
+    right: 1px;
+    display: none;
+}
+.hov-icons:hover i{
+    background-color: black !important;
+    color: white;
+    border-color: black !important;
+}
+.cards:hover .hov-icons{
+display: block;
+}
+.cards:hover .f-p{
+    color: red;
+}
+.input-icon{
+    width: 50px;
+    height: 50px;
+    right: 190px;
+    top: 5px;
+}
+.soon p:hover{
+    color: red;
+}
+.final{
+    background-color: #1B1F22;
+}
+.final-logo img{
+    width:126px;
+    height:40px ;
+}
+.final {
+  min-height: 80vh;
+}
+.final p:hover{
+    color: red;
+}
+.final h4:hover{
+    color: red;
+}
