@@ -1,0 +1,205 @@
+.cont{
+    padding: 0 50px;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --gray-color:rgba(255, 241, 241, 0.4);
+    --red-color:rgba(222, 16, 16, 1);
+    --font-family:  "Poppins", sans-serif;
+ 
+}
+
+span{
+    width: 20px;
+    height: 20px;
+}
+.navbar-brand img {
+  max-height: 40px; 
+  height: auto;
+}
+
+.slect{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 30px;
+}
+.nav p:hover{
+    color:var(--red-color);
+}
+.nav i:hover{
+    color:var(--red-color);
+}
+.sec01 .sec1 p{
+    width: 25px;
+
+    
+}
+.hover:hover{
+    color: var(--red-color);
+    
+}
+.sec02 p:hover{
+     color: var(--red-color);
+     
+}
+.dropdown .nav-link:hover {
+  color: red !important;
+}
+.sec1:hover p {
+  border-color: red !important;}
+body {
+  overflow-x: hidden;
+}
+.content h1{
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-family: 700px;
+}
+ .hover:hover{
+    background-color: red !important;
+    border-color: red !important;
+    color: white !important;
+}
+.inner1{
+    width: 90px;
+    height: 90px;
+}
+.inner1:hover{
+    border-color: black !important;
+}
+.middle {
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.zoom-pan-img {
+    transition: transform 0.2s ease;
+    transform-origin: center center;
+}
+.icon-check{
+    color: #3BB95E !important;
+}
+.zoom-pan-img {
+    width: 120%;  
+    height: auto; 
+}
+.but{
+    color: #2A773F;
+}
+.buttons{
+    width: 150px;
+    height: 20px;
+}
+.add{
+  width: 50px;
+    text-align: center;
+}
+.add:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.last{
+    width: 250px;
+    height: 50px;
+}
+.last:hover{
+    background-color: white !important;
+    border-color: red !important;
+    color: red !important;}
+    .before .item4:hover{
+        color: red;
+    }
+  .last-icon i:hover{
+    color: red !important;
+  }
+ .back{
+    background-color: #D3EFDB;
+ }
+ .back button{
+    width: 200px;
+    height: 60px;
+ }
+ .back button:hover{
+    background-color: transparent !important;
+    border-color: #2A773F !important;
+    color: #2A773F;
+ }
+ .item7 .pag{
+    width: 350px;
+    height: 5px;
+ }
+
+ .hov-icons{
+    top: 20px;
+    right: 1px;
+    display: none;
+}
+.hov-icons:hover i{
+    background-color: black !important;
+    color: white;
+    border-color: black !important;
+}
+.cards:hover .hov-icons{
+display: block;
+}
+.cards:hover .f-p{
+    color: red;
+}
+
+.slick-prev, .slick-next {
+  background:gray;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.slick-prev {
+  left: -40px;
+}
+.slick-next {
+  right: -40px;
+}
+.slick-prev,
+.slick-next {
+  opacity: 1 !important;  
+  visibility: visible !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  opacity: 1 !important;  
+  color: white; 
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background: #333;
+}
+
+.image img{
+    width: 237px;
+    height: 237px;
+}
+.final{
+    background-color: #1B1F22;
+}
+.final-logo img{
+    width:126px;
+    height:40px ;
+}
+.final{
+  min-height: 80vh;
+}
+.final p:hover{
+    color: red;
+}
+.final h4:hover{
+    color: red;
+}
