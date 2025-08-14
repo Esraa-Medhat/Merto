@@ -1,0 +1,114 @@
+.cont{
+    padding: 0 50px;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --gray-color:rgba(255, 241, 241, 0.4);
+    --red-color:rgba(222, 16, 16, 1);
+    --font-family:  "Poppins", sans-serif;
+ 
+}
+
+span{
+    width: 20px;
+    height: 20px;
+}
+.navbar-brand img {
+  max-height: 40px; 
+  height: auto;
+}
+
+.slect{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 30px;
+}
+.nav p:hover{
+    color:var(--red-color);
+}
+.nav i:hover{
+    color:var(--red-color);
+}
+.sec01 .sec1 p{
+    width: 25px;
+
+    
+}
+.hover:hover{
+    color: var(--red-color);
+    
+}
+.sec02 p:hover{
+     color: var(--red-color);
+     
+}
+.dropdown .nav-link:hover {
+  color: red !important;
+}
+.sec1:hover p {
+  border-color: red !important;}
+body {
+  overflow-x: hidden;
+}
+.content h1{
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-family: 700px;
+}
+ .hover:hover{
+    background-color: red !important;
+    border-color: red !important;
+    color: white !important;
+}
+.icons i:hover{
+    color: red !important;
+}
+.email:hover{
+    color: red;
+}
+.phone:hover{
+    color: red;
+}
+.inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.inner img {
+  display: block;
+  width: 100%;
+}
+
+.inner img {
+  transition: 0.3s ease;
+}
+
+.inner:hover img {
+  filter: brightness(80%); 
+}
+.soon p:hover{
+    color: red;
+}
+.final{
+    background-color: #1B1F22;
+}
+.final-logo img{
+    width:126px;
+    height:40px ;
+}
+.final {
+  min-height: 80vh;
+}
+.final p:hover{
+    color: red;
+}
+.final h4:hover{
+    color: red;
+}
+
+
+
+
